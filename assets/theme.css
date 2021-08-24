@@ -7007,22 +7007,3 @@ hr {
   left:0;
   right:0;
 }
-
-.collection-slider {
-  .slick-track {
-    display: flex;
-  }
-  .product-card {
-    width: 100%;
-  }
-  .slick-prev {
-    left: 0;
-    z-index: 999;
-  }
-  .slick-next {
-    right: 0;
-    z-index: 999;
-  }
-  padding-right: 25px;
-  overflow: hidden;
-}
