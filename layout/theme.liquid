@@ -75,6 +75,7 @@
       link.loaded = true;
       link.dispatchEvent(new Event('load'));
     }
+    {{ 'slick.min.js' | asset_url | script_tag }}
   </script>
 
   <link rel="stylesheet" href="{{ 'theme.css' | asset_url }}" type="text/css" media="print" onload="this.media='all';onLoadStylesheet()">
