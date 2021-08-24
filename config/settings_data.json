@@ -257,14 +257,30 @@
           "show_vendor": true
         }
       },
-      "162979856662c7f0c9": {
-        "type": "collection-slider",
+      "16298023726e861c80": {
+        "type": "products-slider",
+        "blocks": {
+          "857ee88a-e7fe-47c1-b6c6-05e723ddd7a8": {
+            "type": "collection",
+            "settings": {
+              "collection": "mobile"
+            }
+          }
+        },
+        "block_order": [
+          "857ee88a-e7fe-47c1-b6c6-05e723ddd7a8"
+        ],
         "settings": {
-          "title": "Featured collection",
-          "collection": "",
-          "grid": 4,
-          "show_vendor": false,
-          "show_view_all": false
+          "enable": true,
+          "show_title": true,
+          "arrows": true,
+          "dots": true,
+          "color_bg--overlay": "#000",
+          "detail-box": "#f3f3f3",
+          "btn-title": "View More",
+          "color_bg--buyBtn": "#CBD5CC",
+          "buybtn-radius": 20,
+          "card-width": 350
         }
       }
     },
@@ -276,7 +292,7 @@
       "hero-2",
       "quotes",
       "image-bar",
-      "162979856662c7f0c9"
+      "16298023726e861c80"
     ]
   },
   "presets": {
