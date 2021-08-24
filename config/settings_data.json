@@ -261,9 +261,8 @@
         "type": "collection-slider",
         "settings": {
           "title": "Featured collection",
-          "collection": "mobile",
-          "grid": 5,
-          "rows": 1,
+          "collection": "",
+          "grid": 4,
           "show_vendor": false,
           "show_view_all": false
         }
