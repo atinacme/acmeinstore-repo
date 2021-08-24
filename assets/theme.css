@@ -3685,6 +3685,7 @@ hr {
 
 /*================ MODULES ================*/
 .site-header {
+  height: 15px;
   position: relative;
   background-color: var(--color-body); }
   @media only screen and (max-width: 749px) {
