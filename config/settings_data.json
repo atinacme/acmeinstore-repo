@@ -21,7 +21,8 @@
           "message_text": "50% Off Sales on the Products",
           "message_link": "",
           "color_bg": "#3a3a3a",
-          "color_text": "#ffffff"
+          "color_text": "#ffffff",
+          "facebook_link": ""
         }
       },
       "hero-1": {
@@ -104,7 +105,7 @@
           "grid": 4,
           "rows": 1,
           "show_vendor": true,
-          "show_view_all": true
+          "show_view_all": false
         }
       },
       "hero-2": {
@@ -255,6 +256,27 @@
           "heading": "You may also like",
           "show_vendor": true
         }
+      },
+      "16298045316fb8cae0": {
+        "type": "collection-slider",
+        "settings": {
+          "title": "Featured Collection Slider",
+          "collection": "mobile",
+          "product_count": 12
+        }
+      },
+      "1629805579a257ca53": {
+        "type": "video",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/b899fcb241518da1.jpg",
+          "image_position": "center center",
+          "video_link": "https:\/\/www.youtube.com\/watch?v=3VYQ1CaPlZs",
+          "show_overlay": true,
+          "style": "image_with_play",
+          "height": "medium",
+          "video_title": "Video Section",
+          "text_size": "medium"
+        }
       }
     },
     "content_for_index": [
@@ -264,7 +286,9 @@
       "collection",
       "hero-2",
       "quotes",
-      "image-bar"
+      "image-bar",
+      "16298045316fb8cae0",
+      "1629805579a257ca53"
     ]
   },
   "presets": {
