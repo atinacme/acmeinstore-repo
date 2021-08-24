@@ -6997,13 +6997,32 @@ hr {
 .store-availability-list__phone {
   margin-bottom: 0; }
 
-  #SearchDrawer {
-    z-index:1001;
+#SearchDrawer {
+  z-index:1001;
+}
+
+#shopify-section-header {
+  position: fixed;
+  z-index:1000;
+  left:0;
+  right:0;
+}
+
+.collection-slider {
+  .slick-track {
+    display: flex;
   }
-  
-  #shopify-section-header {
-    position: fixed;
-    z-index:1000;
-    left:0;
-    right:0;
+  .product-card {
+    width: 100%;
   }
+  .slick-prev {
+    left: 0;
+    z-index: 999;
+  }
+  .slick-next {
+    right: 0;
+    z-index: 999;
+  }
+  padding-right: 25px;
+  overflow: hidden;
+}
