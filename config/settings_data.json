@@ -256,6 +256,17 @@
           "heading": "You may also like",
           "show_vendor": true
         }
+      },
+      "162979856662c7f0c9": {
+        "type": "collection-slider",
+        "settings": {
+          "title": "Featured collection",
+          "collection": "mobile",
+          "grid": 5,
+          "rows": 1,
+          "show_vendor": false,
+          "show_view_all": false
+        }
       }
     },
     "content_for_index": [
@@ -265,7 +276,8 @@
       "collection",
       "hero-2",
       "quotes",
-      "image-bar"
+      "image-bar",
+      "162979856662c7f0c9"
     ]
   },
   "presets": {
