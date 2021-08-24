@@ -257,30 +257,12 @@
           "show_vendor": true
         }
       },
-      "16298023726e861c80": {
-        "type": "products-slider",
-        "blocks": {
-          "857ee88a-e7fe-47c1-b6c6-05e723ddd7a8": {
-            "type": "collection",
-            "settings": {
-              "collection": "mobile"
-            }
-          }
-        },
-        "block_order": [
-          "857ee88a-e7fe-47c1-b6c6-05e723ddd7a8"
-        ],
+      "16298045316fb8cae0": {
+        "type": "collection-slider",
         "settings": {
-          "enable": true,
-          "show_title": true,
-          "arrows": true,
-          "dots": true,
-          "color_bg--overlay": "#000",
-          "detail-box": "#f3f3f3",
-          "btn-title": "View More",
-          "color_bg--buyBtn": "#CBD5CC",
-          "buybtn-radius": 20,
-          "card-width": 350
+          "title": "Featured Collection Slider",
+          "collection": "mobile",
+          "product_count": 12
         }
       }
     },
@@ -292,7 +274,7 @@
       "hero-2",
       "quotes",
       "image-bar",
-      "16298023726e861c80"
+      "16298045316fb8cae0"
     ]
   },
   "presets": {
