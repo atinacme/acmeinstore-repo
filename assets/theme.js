@@ -9693,6 +9693,3 @@ function headerSize() {
 
 $(window).on("load", headerSize);
 $(window).on("resize", $.debounce(500, headerSize));
-
-$('.collection-slider').slick();
-
