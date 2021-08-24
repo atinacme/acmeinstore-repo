@@ -22,7 +22,7 @@
       {%- assign grid_item_width = 'small--one-half medium-up--one-fifth' -%}
   {% endcase %}
 
-  {%- assign product_limit = section.settings.grid | times: section.settings.rows -%}
+  {%- assign product_limit = 12 -%}
 
   <ul class="grid grid--uniform grid--view-items">
     {% for product in collection.products limit: product_limit %}
@@ -196,37 +196,6 @@
       "max": 5,
       "step": 1,
       "default": 3
-    },
-    {
-      "type": "range",
-      "id": "rows",
-      "label": {
-        "cs": "Řádky",
-        "da": "Rækker",
-        "de": "Reihen",
-        "en": "Rows",
-        "es": "Filas",
-        "fi": "Rivit",
-        "fr": "Rangées",
-        "it": "Righe",
-        "ja": "行",
-        "ko": "열",
-        "nb": "Rader",
-        "nl": "Rijen",
-        "pl": "Wiersze",
-        "pt-BR": "Linhas",
-        "pt-PT": "Linhas",
-        "sv": "Rader",
-        "th": "แถว",
-        "tr": "Satırlar",
-        "vi": "Hàng",
-        "zh-CN": "行数",
-        "zh-TW": "列"
-      },
-      "min": 1,
-      "max": 5,
-      "step": 1,
-      "default": 2
     },
     {
       "type": "checkbox",
