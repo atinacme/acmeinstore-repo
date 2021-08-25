@@ -277,6 +277,14 @@
           "video_title": "Video Section",
           "text_size": "medium"
         }
+      },
+      "1629881667c67a8ef1": {
+        "type": "instagram",
+        "settings": {
+          "feed": "mobile-instagram-feeds",
+          "ig_title": "Instagram Feeds",
+          "ig_para": ""
+        }
       }
     },
     "content_for_index": [
@@ -288,7 +296,8 @@
       "quotes",
       "image-bar",
       "16298045316fb8cae0",
-      "1629805579a257ca53"
+      "1629805579a257ca53",
+      "1629881667c67a8ef1"
     ]
   },
   "presets": {
