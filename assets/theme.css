@@ -6996,14 +6996,3 @@ hr {
 
 .store-availability-list__phone {
   margin-bottom: 0; }
-
-#SearchDrawer {
-  z-index:1001;
-}
-
-#shopify-section-header {
-  position: fixed;
-  z-index:1000;
-  left:0;
-  right:0;
-}

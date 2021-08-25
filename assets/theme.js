@@ -9685,11 +9685,3 @@ function removeImageLoadingAnimation(image) {
     imageWrapper.removeAttribute('data-image-loading-animation');
   }
 }
-
-function headerSize() {
-  let $headerHeight = $('div#shopify-section-header').outerHeight();
-  $('#PageContainer').css('padding-top', $headerHeight);
-}
-
-$(window).on("load", headerSize);
-$(window).on("resize", $.debounce(500, headerSize));
