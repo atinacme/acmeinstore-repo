@@ -7,8 +7,8 @@
 
     var feed = new Instafeed({
         get: 'user',
-        userId: insta.getAttribute('7528336838'),
-        accessToken: insta.getAttribute('7528336838.1677ed0.6d36e98f73974e3788f290e4f85c47b9')
+        userId: insta.getAttribute('data-user-id'),
+        accessToken: insta.getAttribute('data-access-token')
     });
     feed.run();
 </script>
